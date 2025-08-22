@@ -119,7 +119,7 @@ export default function App() {
         <div className="content-wrap">
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/granite" element={<Granite />} />
+            <Route path="/RajasthanMarbleHouse/#/granite" element={<Granite />} />
             <Route path="/wooden" element={<Wooden />} />
             <Route path="/pastedTilesWooden" element={<PastedTilesWooden />} />
             <Route path="/tiles" element={<Tiles />} />
