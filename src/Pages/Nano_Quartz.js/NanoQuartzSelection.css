@@ -1,0 +1,66 @@
+.nano-quartz-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 50px 20px;
+  background-color: #f0f4f8; 
+  min-height: 50vh;
+  text-align: center;
+}
+
+.nano-quartz-container h1 {
+  width: 100%;
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.stone-card {
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-decoration: none;
+  color: #000;
+  width: 320px; 
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.stone-card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+.stone-card h2 {
+  font-size: 1.5rem;
+  margin: 15px 0 10px;
+}
+
+.stone-card p {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.stone-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* ✅ Mobile View */
+@media (max-width: 768px) {
+  .nano-quartz-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .stone-card {
+    width: 90%;
+  }
+}

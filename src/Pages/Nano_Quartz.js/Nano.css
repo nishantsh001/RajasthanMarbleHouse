@@ -1,0 +1,88 @@
+/* Overall Page Styling */
+.detail-page {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  color: #333;
+}
+
+/* Heading */
+.detail-page h1 {
+  font-size: 32px;
+  color: #2c3e50;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Image Container */
+.image-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.image-container img {
+  width: 100%;
+  max-width: 700px;
+  max-height: 400px; /* ✅ Limit height */
+  border-radius: 10px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+  object-fit: cover; /* ✅ Crop without distortion */
+}
+
+
+/* Paragraph Text */
+.detail-page p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+/* Bold Highlights */
+.detail-page strong {
+  color: #000;
+}
+
+/* Feature List */
+.detail-page ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.detail-page ul li {
+  font-size: 18px;
+  margin-bottom: 10px;
+  padding-left: 25px;
+  position: relative;
+}
+
+/* ✅ Emoji before text */
+.detail-page ul li::before {
+  content: '✔️';
+  position: absolute;
+  left: 0;
+  font-size: 18px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .detail-page {
+    margin: 20px;
+    padding: 15px;
+  }
+
+  .detail-page h1 {
+    font-size: 26px;
+  }
+
+  .detail-page p,
+  .detail-page ul li {
+    font-size: 16px;
+  }
+}

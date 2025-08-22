@@ -1,0 +1,55 @@
+.granite-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+
+/* Filters */
+.granite-filters {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.granite-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Always 4 columns */
+  gap: 20px;
+  max-width: 1200px; /* Adjust as needed */
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.granite-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  text-align: center;
+  padding: 15px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.granite-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+
+
+/* For tablets: 2 columns */
+@media (max-width: 992px) {
+  .granite-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* For mobile: 1 column */
+@media (max-width: 576px) {
+  .granite-grid {
+    grid-template-columns: 1fr;
+  }
+}
