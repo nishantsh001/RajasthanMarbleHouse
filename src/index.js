@@ -23,7 +23,7 @@ const repoName = '/RajasthanMarbleHouse';
 
 if (!window.location.hash) {
   const path = window.location.pathname.replace(repoName, '');
-  window.location.replace(`${window.location.origin}${repoName}/#${path}`);
+  window.history.replaceState(null, '', `${repoName}/#${path}`);
 }
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

@@ -113,7 +113,7 @@ function Home() {
 
 export default function App() {
   return (
-    <Router>
+    <Router basename="/">
       <div className="page-container">
         <Header />
         <div className="content-wrap">
