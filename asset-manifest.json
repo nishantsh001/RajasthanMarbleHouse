@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/RajasthanMarbleHouse/static/css/main.b59635fb.css",
+    "main.js": "/RajasthanMarbleHouse/static/js/main.e53ac4be.js",
+    "index.html": "/RajasthanMarbleHouse/index.html",
+    "main.b59635fb.css.map": "/RajasthanMarbleHouse/static/css/main.b59635fb.css.map",
+    "main.e53ac4be.js.map": "/RajasthanMarbleHouse/static/js/main.e53ac4be.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b59635fb.css",
+    "static/js/main.e53ac4be.js"
+  ]
+}
