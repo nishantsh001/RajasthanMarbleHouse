@@ -113,7 +113,7 @@ function Home() {
 
 export default function App() {
   return (
-    <Router basename="/RajasthanMarbleHouse">
+    <Router >
       <div className="page-container">
         <Header />
         <div className="content-wrap">
