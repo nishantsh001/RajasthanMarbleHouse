@@ -1,6 +1,8 @@
 import { useState } from "react";
 import "./Tiles.css";
 import { useNavigate } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
+
 
 export default function Tiles() {
   const products = [
