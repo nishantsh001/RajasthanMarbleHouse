@@ -19,7 +19,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 
-const repoName = 'RajasthanMarbleHouse'; 
+const repoName = '/RajasthanMarbleHouse'; 
 
 if (!window.location.hash) {
   const path = window.location.pathname.replace(repoName, '');
