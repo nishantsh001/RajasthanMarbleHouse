@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/RajasthanMarbleHouse/static/css/main.b59635fb.css",
-    "main.js": "/RajasthanMarbleHouse/static/js/main.2547fa06.js",
+    "main.js": "/RajasthanMarbleHouse/static/js/main.08cbb9da.js",
     "index.html": "/RajasthanMarbleHouse/index.html",
     "main.b59635fb.css.map": "/RajasthanMarbleHouse/static/css/main.b59635fb.css.map",
-    "main.2547fa06.js.map": "/RajasthanMarbleHouse/static/js/main.2547fa06.js.map"
+    "main.08cbb9da.js.map": "/RajasthanMarbleHouse/static/js/main.08cbb9da.js.map"
   },
   "entrypoints": [
     "static/css/main.b59635fb.css",
-    "static/js/main.2547fa06.js"
+    "static/js/main.08cbb9da.js"
   ]
 }
