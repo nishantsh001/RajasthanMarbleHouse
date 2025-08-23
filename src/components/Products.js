@@ -45,7 +45,8 @@ export default function Products() {
 
       <div className="product-list" style={{ paddingTop: "20px" }}>
         <Link to="/granite" className="product-card">
-          <img className="product-image" src="/images/granite.jpg" alt="Granite" />
+          {/* <img className="product-image" src="/images/granite.jpg" alt="Granite" /> */}
+          <img className="product-image" src={`${process.env.PUBLIC_URL}/images/granite.jpg`} alt="Granite" />
           <h3>Granite</h3>
           <p>Premium quality granite available starting at<strong> ₹70/sqft</strong> in RC Puram, Hyderabad.</p>
         </Link>
