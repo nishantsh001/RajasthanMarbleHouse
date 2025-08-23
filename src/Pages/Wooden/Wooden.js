@@ -10,7 +10,7 @@ export default function Tiles() {
       size: "200x1200mm(5 tiles/box)",
       thickness: "9mm",
       description: "Rough",
-      image: "./images/Wooden/Honey Wood Brown.jpg",
+      image: '${process.env.PUBLIC_URL}/images/Wooden/Honey Wood Brown.jpg',
       imageDescription: ""
     },
     {
@@ -18,7 +18,7 @@ export default function Tiles() {
       size: "200x1200mm(5 tiles/box)",
       thickness: "9mm",
       description: "Rough",
-      image: "./images/Wooden/Red Cedar.jpg",
+      image: '${process.env.PUBLIC_URL}/images/Wooden/Red Cedar.jpg',
       imageDescription: ""
     }
   ];

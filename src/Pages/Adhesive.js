@@ -7,28 +7,28 @@ export default function Adhesive() {
       description: "High-performance tile adhesive for strong bonding and long-lasting results.",
       why: "Prevents cracks, tile loosening, and ensures durability even in high-moisture areas.",
       when: "Ideal for bathrooms, kitchens, outdoor tiling, and large-format tiles.",
-      image: "/images/ultratech.jpg" 
+      image: '${process.env.PUBLIC_URL}/images/ultratech.jpg'
     },
     {
       name: "T02 Roff Cement",
       description: "Premium-grade cement adhesive designed for strong and durable tile installation.",
       why: "Offers excellent bonding strength and resistance to moisture, reducing the risk of tile detachment.",
       when: "Perfect for indoor and outdoor tiling in both residential and commercial projects.",
-      image: "/images/rofft02.jpg" 
+      image: '${process.env.PUBLIC_URL}/images/rofft02.jpg'
     },
     {
       name: "Epoxy (5kg & 1kg)",
       description: "Premium waterproof epoxy adhesive available in multiple shades.",
       why: "Provides maximum strength, water resistance, and stain protection for tile joints.",
       when: "Best for swimming pools, kitchens, bathrooms, and commercial flooring.",
-      image: "/images/epoxyroff.jpg" 
+      image: '${process.env.PUBLIC_URL}/images/epoxyroff.jpg' 
     },
     {
       name: "Roff Grout (1kg)",
       description: "Durable, color-matched grout for a clean and elegant tile finish.",
       why: "Fills gaps between tiles, prevents water seepage, and enhances appearance.",
       when: "Suitable for all types of wall and floor tiles, indoors and outdoors.",
-      image: "/images/grout.jpg" 
+      image: '${process.env.PUBLIC_URL}/images/grout.jpg' 
     }
   ];
 
