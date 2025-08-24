@@ -9,32 +9,32 @@ export default function Tiles() {
       size: "1200x1800mm",
       thickness: 15,
       description: "Vitrified Glossy",
-      image: '${process.env.PUBLIC_URL}/images/Tiles/Breccia Aurora.jpg',
-      imageDescription: '${process.env.PUBLIC_URL}/images/Tiles/Breccia Aurora Pasted.jpg'
+      image: `${process.env.PUBLIC_URL}/images/Tiles/Breccia Aurora.jpg`,
+      imageDescription: `${process.env.PUBLIC_URL}/images/Tiles/Breccia Aurora Pasted.jpg`
     },
     {
       name: "Marvel Stone Grey",
       size: "1200x1800mm",
       thickness: 15,
       description: "Vitrified Glossy",
-      image: '${process.env.PUBLIC_URL}/images/Tiles/Marvel Stone Grey.jpg',
-      imageDescription: '${process.env.PUBLIC_URL}/images/Tiles/Marvel Stone Grey Pasted.jpg'
+      image: `${process.env.PUBLIC_URL}/images/Tiles/Marvel Stone Grey.jpg`,
+      imageDescription: `${process.env.PUBLIC_URL}/images/Tiles/Marvel Stone Grey Pasted.jpg`
     },
     {
       name: "Onyx Gold",
       size: "1200x1800mm",
       thickness: 15,
       description: "Vitrified Glossy",
-      image: '${process.env.PUBLIC_URL}/images/Tiles/Onyx Gold.jpg',
-      imageDescription: '${process.env.PUBLIC_URL}/images/Tiles/Onyx Gold Pasted.jpg'
+      image: `${process.env.PUBLIC_URL}/images/Tiles/Onyx Gold.jpg`,
+      imageDescription: `${process.env.PUBLIC_URL}/images/Tiles/Onyx Gold Pasted.jpg`
     },
     {
       name: "Roman Statuario",
       size: "1200x1800mm",
       thickness: 15,
       description: "Vitrified Glossy",
-      image: '${process.env.PUBLIC_URL}/images/Tiles/Roman Statuario.jpg',
-      imageDescription: '${process.env.PUBLIC_URL}/images/Tiles/Roman Statuario pasted.jpg'
+      image: `${process.env.PUBLIC_URL}/images/Tiles/Roman Statuario.jpg`,
+      imageDescription: `${process.env.PUBLIC_URL}/images/Tiles/Roman Statuario pasted.jpg`
 
     },
     {
@@ -42,24 +42,24 @@ export default function Tiles() {
       size: "1200x1800mm",
       thickness: 15,
       description: "Vitrified Glossy",
-      image: '${process.env.PUBLIC_URL}/images/Tiles/Roman Statuario.jpg',
-      imageDescription: '${process.env.PUBLIC_URL}/images/Tiles/Breccia Aurora Pasted.jpg'
+      image: `${process.env.PUBLIC_URL}/images/Tiles/Roman Statuario.jpg`,
+      imageDescription: `${process.env.PUBLIC_URL}/images/Tiles/Breccia Aurora Pasted.jpg`
     },
     {
       name: "Signora",
       size: "1200x1800mm",
       thickness: 15,
       description: "Vitrified Glossy",
-      image: '${process.env.PUBLIC_URL}/images/Tiles/Signora.jpg',
-      imageDescription: '${process.env.PUBLIC_URL}/images/Tiles/Signora pasted.jpg'
+      image: `${process.env.PUBLIC_URL}/images/Tiles/Signora.jpg`,
+      imageDescription: `${process.env.PUBLIC_URL}/images/Tiles/Signora pasted.jpg`
     },
     {
       name: "Spider Grey",
       size: "1200x1800mm",
       thickness: 15,
       description: "Vitrified Glossy",
-      image: '${process.env.PUBLIC_URL}/images/Tiles/Spider Grey.jpg', 
-      imageDescription: '${process.env.PUBLIC_URL}/images/Tiles/Spider Grey pasted.jpg'
+      image: `${process.env.PUBLIC_URL}/images/Tiles/Spider Grey.jpg`, 
+      imageDescription: `${process.env.PUBLIC_URL}/images/Tiles/Spider Grey pasted.jpg`
     },
     {
       name: "Carrara White",

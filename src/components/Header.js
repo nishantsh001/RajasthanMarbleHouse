@@ -29,7 +29,7 @@ export default function Header() {
     <header className="header">
       <nav className="nav">
         <div className="logo-container" onClick={() => handleNavigation('/')}>
-          <img src="/images/logo1.png" alt="Logo" className="logo-img" />
+          <img src='${process.env.PUBLIC_URL}/images/logo1.png' alt="Logo" className="logo-img" />
           <p className="tagline">Inspired by Nature, Designed for You</p>
         </div>
 
