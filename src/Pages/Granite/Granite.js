@@ -9,7 +9,7 @@ export default function Granite() {
       thickness: "16mm",
       description: "Polished (size may vary)",
       color: "blue",
-      image: "/images/Granite/Ice Blue.jpg",
+      image: `${process.env.PUBLIC_URL}/images/Granite/Ice Blue.jpg`,
     },
        {
       name: "Blue Lapotra",
@@ -17,7 +17,7 @@ export default function Granite() {
       thickness: "16mm",
       description: "Anti-Skid (size may vary)",
       color: "blue",
-      image: "/images/Granite/Ice Blue.jpg",
+      image: `${process.env.PUBLIC_URL}/images/Granite/Ice Blue.jpg`,
     },
     {
       name: "Galaxy Black",
@@ -25,7 +25,7 @@ export default function Granite() {
       thickness: "16mm",
       description: "Polished (size may vary)",
       color: "black",
-      image: "/images/absolute-black.jpg",
+      image: `${process.env.PUBLIC_URL}/images/absolute-black.jpg`,
     },
     {
       name: "Moon White",
@@ -33,7 +33,7 @@ export default function Granite() {
       thickness: "16mm",
       description: "Polished (size may vary)",
       color: "white",
-      image: "/images/moon-white.jpg",
+      image: `${process.env.PUBLIC_URL}/images/moon-white.jpg`,
     },
       {
       name: "Levender (srikakulam)",
@@ -41,7 +41,7 @@ export default function Granite() {
       thickness: "16mm",
       description: "Polished",
       color: "white",
-      image: "/images/Granite/Levender.jpg",
+      image: `${process.env.PUBLIC_URL}/images/Granite/Levender.jpg`,
     },
       {
       name: "Ladoo",
@@ -49,7 +49,7 @@ export default function Granite() {
       thickness: "16mm",
       description: "Anti-Skid (size may vary)",
       color: "black",
-      image: "/images/moon-white.jpg",
+      image: `${process.env.PUBLIC_URL}/images/moon-white.jpg`,
     },
   ];
 
