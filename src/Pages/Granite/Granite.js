@@ -22,10 +22,10 @@ export default function Granite() {
     {
       name: "Galaxy Black",
       size: "108x30 in|35x75 in",
-      thickness: "16mm",
+      thickness: "18mm",
       description: "Polished (size may vary)",
-      color: "black",
-      image: `${process.env.PUBLIC_URL}/images/absolute-black.jpg`,
+      color: "Black",
+      image: `${process.env.PUBLIC_URL}/images/Galaxy Black.jpg`,
     },
     {
       name: "Moon White",

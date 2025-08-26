@@ -18,7 +18,7 @@ export default function Tiles() {
       thickness: 15,
       description: "Vitrified Glossy",
       image: `${process.env.PUBLIC_URL}/images/Tiles/Marvel Stone Grey.jpg`,
-      imageDescription: `${process.env.PUBLIC_URL}/images/Tiles/Marvel Stone Grey Pasted.jpg`
+      imageDescription: `${process.env.PUBLIC_URL}/images/Tiles/Marvel_Stone_Grey_Pasted.jpg`
     },
     {
       name: "Onyx Gold",
