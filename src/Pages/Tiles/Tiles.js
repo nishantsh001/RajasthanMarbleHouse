@@ -38,12 +38,12 @@ export default function Tiles() {
 
     },
     {
-      name: "Roman Statuario",
+      name: "Onyx Origin",
       size: "1200x1800mm",
       thickness: 15,
       description: "Vitrified Glossy",
-      image: `${process.env.PUBLIC_URL}/images/Tiles/Roman Statuario.jpg`,
-      imageDescription: `${process.env.PUBLIC_URL}/images/Tiles/Breccia Aurora Pasted.jpg`
+      image: `${process.env.PUBLIC_URL}/images/Tiles/Onyx Origin.jpg`,
+      imageDescription: `${process.env.PUBLIC_URL}/images/Tiles/Onyx Origin Pasted.jpg`
     },
     {
       name: "Signora",
@@ -62,18 +62,18 @@ export default function Tiles() {
       imageDescription: `${process.env.PUBLIC_URL}/images/Tiles/Spider Grey pasted.jpg`
     },
     {
-      name: "Carrara White",
-      size: "800x2400mm",
-      thickness: 10,
+      name: "Rhyolite Forest Green",
+      size: "800x1600mm",
+      thickness: 9,
       description: "Matte Finish",
-      image: "",
-      imageDescription:"/images/Tiles/Breccia Aurora Pasted.jpg"
+      image: `${process.env.PUBLIC_URL}/images/Tiles/Rhyolite Forest Green.jpg`,
+      imageDescription:`${process.env.PUBLIC_URL}/images/Tiles/Rhyolite Forest Green pasted.jpg`
     },
     {
-      name: "Onyx Blue",
-      size: "600x1200mm",
+      name: "Oracle Beige",
+      size: "800x1600mm",
       thickness: 9,
-      description: "Polished",
+      description: "Matte Finish",
       image: "",
       imageDescription:"/images/Tiles/Breccia Aurora Pasted.jpg"
     }
